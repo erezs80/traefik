@@ -21,3 +21,7 @@ spec:
         backend:
           serviceName: wensleydale
           servicePort: http
+      - path: /
+        backend:
+          serviceName: wensleydale
+          servicePort: http
