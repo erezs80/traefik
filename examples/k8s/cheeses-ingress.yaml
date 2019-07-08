@@ -6,7 +6,7 @@ metadata:
     traefik.frontend.rule.type: PathPrefixStrip
 spec:
   rules:
-  - host: cheeses.minikube
+  - host: 10.240.0.35
     http:
       paths:
       - path: /stilton
